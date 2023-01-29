@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Array</title>
+            <script>
+                var family = ["Vitor", "Erika", "Dani", "Lorena", "Isabelly"];
+
+                family.push("Mayara");
+                console.log(family);
+
+                family.pop();
+                console.log(family);
+
+                family.unshift("Anizia");
+                console.log(family);
+
+                family.shift();
+                console.log(family);
+
+                family.splice(3, 0, "avó", "irmã");
+                console.log(family);
+
+                family.splice(3, 2);
+                console.log(family);
+
+                family.splice(3, 1);
+                console.log(family);
+
+                console.log(family[2])
+
+                console.log("Tamanho máximo de índices")
+                console.log(family.length - 1);
+
+                console.log("Tamanho da array atual")
+                console.log(family.length);
+
+            </script>
+        </head>
+        <body>
+            
+        </body>
+    </html>
